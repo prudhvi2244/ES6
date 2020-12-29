@@ -14,3 +14,17 @@
 
         alert(sortNames("Sarah", "Harry", "Peter")); // Harry,Peter,Sarah
         alert(sortNames("Tony", "Ben", "Rick", "Jos")); // John,Jos,Rick,Tony
+
+* When the rest parameter is the only parameter in a function, it gets all the arguments passed to the function, otherwise it gets the rest of the arguments that exceeds the number of named parameters.
+
+# Example-2
+
+        function myFunction(a, b, ...args) {
+            return args;
+        }
+
+        alert(myFunction(1, 2, 3, 4, 5)); // 3,4,5
+        alert(myFunction(-7, 5, 0, -2, 4.5, 1, 3)); // 0,-2,4.5,1,3
+
+
+# Note : Note: Don't confuse the term rest parameters with the REST (REpresentational State Transfer). This has nothing to do with RESTful web services.
