@@ -18,6 +18,8 @@
 
 * While in ES5, to achieve the same we had to write something like below
 
+# Example-1 [ES5]
+
         // Multi-line string
         var str = 'The quick brown fox\n\t'
             + 'jumps over the lazy dog.';
