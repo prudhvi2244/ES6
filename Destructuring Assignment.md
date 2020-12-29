@@ -49,7 +49,7 @@
 
         let [,,gender]=employee
 
-        console.log('Employee Gender Name :',gender)
+        console.log('Employee Gender :',gender)
 
 # Default values
 
@@ -64,7 +64,7 @@
 
         console.log('Employee First Name :',fname)
         console.log('Employee Last Name :',lname)
-        console.log('Employee Gender Name :',gender)
+        console.log('Employee Gender :',gender)
 
 
 # The object destructuring assignment
