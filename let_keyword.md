@@ -1,4 +1,5 @@
 # The let Keyword
+
 * ES6 introduces the new let keyword for declaring variables. Prior to ES6, the only way to declare a variable in JavaScript was the var keyword. Let's see what's the difference between them is.
 
 * There are two critical differences between the var and let. Variables declared with the var keyword are function-scoped and hoisted at the top within its scope, whereas variables declared with let keyword are block-scoped ({}) and they are not hoisted.
@@ -19,3 +20,6 @@
             console.log(i); // 0,1,2,3,4
         }
         console.log(i); // 5
+
+* As you can see in the above example the variable i in the first block is not accessible outside the for loop. This also enables us to reuse the same variable name multiple times as its scope is limited to the block ({}), which results in less variable declaration and more cleaner code.
+
