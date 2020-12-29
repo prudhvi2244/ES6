@@ -16,3 +16,5 @@
         for(let character of greet) {
             console.log(character); // H,e,l,l,o, ,W,o,r,l,d,!
         }
+
+# Note : The for...of loop doesn't work with objects because they are not iterable. If you want to iterate over the properties of an object you can use the for-in loop.
